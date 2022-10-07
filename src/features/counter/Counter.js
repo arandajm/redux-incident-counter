@@ -1,7 +1,7 @@
-import React from "react";
-import styles from "./Counter.module.css";
-import { SetCounter } from "./SetCounter";
-import { useCounter } from "./useCounter";
+import React from 'react';
+import styles from './Counter.module.css';
+import { SetCounter } from './SetCounter';
+import { useCounter } from './useCounter';
 
 export function Counter() {
   const { count, decrement, increment, set } = useCounter();
